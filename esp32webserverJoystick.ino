@@ -143,4 +143,5 @@ void loop() {
   webSocket.loop();
 
   Serial1.printf("%d,%d,%d,%d\n", joyLX, joyLY, joyRX, joyRY);
+  delay(50);
 }
